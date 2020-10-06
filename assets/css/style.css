@@ -17,6 +17,7 @@ body{
     font-weight: 400;
     font-size: 14px;
     background-color: #F5F5F5;
+    overflow-x: hidden;
 }
 
 
@@ -296,7 +297,18 @@ body{
     font-size: 18px;
   }
   .business-area {
-    padding: 30px 0;
-    margin: 80px 0;
-    position: relative;
-  }
+	padding: 80px 0;
+	margin-top: 150px;
+	position: relative;
+	margin-bottom: 30px;
+}
+  .business-area::before {
+	position: absolute;
+	content: "";
+	background-color: white;
+	width: 106%;
+	padding: 200px;
+	top: 0;
+	left: -20px;
+	transform: rotate(3deg);
+}
