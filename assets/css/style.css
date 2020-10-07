@@ -34,11 +34,6 @@ body{
     font-size: 18px;
     font-weight: 900;
   }
-  .copy {
-	text-align: center;
-	margin-top: 60px;
-	text-transform: capitalize;
-}
 
 .single-footer ul li a {
     color: #4F4F4F;
@@ -60,8 +55,6 @@ body{
   }
   .single-footer form {
     position: relative;
-  }
-  .single-footer {
   }
   .single-footer input[type="submit"] {
 	position: absolute;
@@ -89,6 +82,23 @@ body{
 .footer-social a {
 	margin-right: 10px;
 	font-size: 18px;
+}
+
+.footer-bottom {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-bottom p {
+  margin: 0;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.footer-bottom a {
+  color: #fff;
+  float: right;
+  margin-left: 15px;
+  font-size: 14px;
 }
 
 .mainmenu ul li a {
